@@ -1531,6 +1531,17 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay {
 footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
 }
 
+#SHOW_BTN:hover{
+  background-color: #166534;
+
+}
+
+
+
+
+
+
+
 @media (max-width: 1025px) {
   #SHOW_BTN {
     display: block;
@@ -1605,9 +1616,7 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
     color: #6b7280;
     background: #f3f4f6;
   }
-  .headerTwo .right {
-    display: none;
-  }
+  
   .headerTwo {
     height: 48px;
     gap: 0px;
@@ -1848,7 +1857,7 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
   }
   footer .FooterMiddle .left h4 {
     font-family: Inter;
-    font-size: 37px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 16.8px;
     letter-spacing: -0.2800000011920929px;
@@ -1920,7 +1929,7 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
     margin: 10px 0;
   }
   .header-row {
-    height: 73px;
+    height: 200px;
     gap: 0px;
     opacity: 0px;
     background: #ffffff;
@@ -1934,6 +1943,12 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
     align-items: center;
     flex-direction: column;
   }
+  .header-row .nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: row;
+}
   .headerTwo .left ul li a .headerTwolink h1 {
     font-family: Inter;
     font-size: 11px;
@@ -1963,9 +1978,29 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
   }
 }
 @media (max-width: 376px) {
+  .Discount .DiscountLeft {
+   
+    height: 15px;
+    top: 10px;
+    left: 474.45px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 3px;
+    margin-right: 0px;
+    width: 100%;
+}
+  .Discount .DiscountLeft h1 {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 14.52px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #ffffff;
+}
   .headerTwo .left ul li a .headerTwolink h1 {
     font-family: Inter;
-    font-size: 9px;
+    font-size: 5px;
     font-weight: 600;
     line-height: 48px;
     letter-spacing: -0.30000001192092896px;
@@ -2115,7 +2150,220 @@ footer .FooterBottom .PAYMENT_INTEGRATION .pay img {
     color: #9ca3af;
     outline: none;
   }
-  .Discount {
-    display: none;
+  footer .Footertop .FooterContainer .FooterContainerRight .SubscribeBox {
+    width: 297px;
+    height: 48px;
+    top: 56.27px;
+    left: 1221px;
+    padding: 15.5px 0px 15.5px 15px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 1px 2px 0px #0000000c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+
+
+@media (max-width: 1352px) {
+  .SearchHeader-row .middle {
+    width: 57%;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 0 14.5px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -42px;
+}
+}
+@media (max-width: 1122px) {
+  .SearchHeader-row .middle {
+    width: 54%;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 0 14.5px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -42px;
+}
+}
+@media (max-width: 1039px) {
+  .SearchHeader-row .middle {
+    width: 45%;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 0 14.5px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -42px;
+}
+}
+@media (max-width: 876px) {
+  .SearchHeader-row .middle {
+    width: 34%;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 0 14.5px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -42px;
+}
+}
+@media (max-width: 720px) {
+  .SearchHeader-row {
+    height: 188.39px;
+    top: 41px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.SearchHeader-row .middle {
+  width: 90%;
+  margin: 15px 0;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 0 14.5px;
+  gap: 0px;
+  opacity: 0px;
+  /* margin-left: -42px; */
+}
+}
+@media (max-width: 691px) {
+  .header-row {
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.header-row .nav {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+.header-row .RightNav {
+  display: flex;
+  margin-bottom: 5px;
+}
+}
+
+
+@media (max-width: 436px) {
+  .headerTwo .right ul li a .headerTwoRightlink h1 {
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: #030712;
+}
+.headerTwo .right ul li a .headerTwoRightlink h1.sale {
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  color: #dc2626;
+}
+  .headerTwo .left ul li a .headerTwolink h1 {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: #030712;
+    text-decoration: none;
+}
+  .header-row .nav {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+    flex-direction: column;
   }
+  .header-row {
+    height: 90px;
+    gap: 0px;
+    opacity: 0px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.header-row .nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+
+}
+}
+@media(max-width:779px){
+
+  .Discount {
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    background: #634c9f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Discount .DiscountLeft {
+  width: 100%;
+  height: 15px;
+  top: 10px;
+  left: 474.45px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 0px;
+}
+.Discount .DiscountRight {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-left: 0px;
+}
+}
+@media (max-width:364px){
+
+}
+@media(max-width:493px){
+  .headerTwo .left ul li a .headerTwolink h1 {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: #030712;
+    text-decoration: none;
+}
+}
+@media(max-width:892px){
+
+  .headerTwo {
+    height: 86px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 }
